@@ -1,3 +1,11 @@
 body {
+  background: #181a1b;
+  color: #fafafa;
   font-family: 'Google Sans Code', 'IBM Plex Serif', serif;
+  margin: 0;
+  padding: 0;
+}
+
+a, h1, h2, h3, h4, h5, h6, p, span, div {
+  color: inherit;
 }
