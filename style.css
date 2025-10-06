@@ -1,0 +1,26 @@
+@media screen and (width >= 80rem) {
+  .container {
+    margin: 1em 2em;
+  }
+}
+.container {
+  display: flex;
+}
+
+.item {
+  flex: 1;
+}
+@media screen and (width >= 600px) {
+  .wrapper {
+    display: flex;
+  }
+
+  .col1 {
+    flex: 1;
+    margin-right: 5%;
+  }
+
+  .col2 {
+    flex: 2;
+  }
+}
